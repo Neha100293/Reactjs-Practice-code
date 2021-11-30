@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morden javaScript</title>
+</head>
+<body>
+    <h1> Var, Let and Const in JavaScript</h1>
+    <script>
+        var name ="neha";
+         console.log(name);
+         
+         let name1 ="neha";
+         console.log(name1);
+
+         const name2 ="neha";
+         console.log(name2);
+
+         var name3 ="neha";
+         name3="kratika";
+         console.log(name3);
+
+         let name4 ="neha";
+         name4="kratika";
+         console.log(name4);
+         
+         //const name5 ="neha";
+         //name5="kratika";
+         //console.log(name5);
+
+         function modJS(love) {
+           
+            var name6="kratika"
+            if (love) {
+                var name6="neha";
+                console.log(name6);
+            }
+         
+         console.log(name6);
+             
+         }
+         modJS(true);
+
+
+         function modJS1(love) {
+           
+           let name7="kratika"
+           if (love) {
+               let name7="neha";
+               console.log(name7);
+           }
+        
+        console.log(name7);
+            
+        }
+        modJS1(true);
+
+        </script>
+</body>
+</html>

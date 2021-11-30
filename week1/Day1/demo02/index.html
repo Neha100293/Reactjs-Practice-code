@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morden javaScript</title>
+</head>
+
+<body>
+    <h1>Arrow Function</h1>
+    <script>
+        //Example1
+        const sum = () => {
+            let a = 10;
+            let b = 5;
+            return a + b;
+
+        }
+        console.log(sum());
+        //Example2
+        let a1 = 10;
+        let b1 = 20;
+        const sum1 = () => {
+            return a1 + b1;
+        }
+        console.log(sum1());
+        //Example3
+
+        let a2 = 10;
+
+        const sum2 = (b2) => a2 + b2;
+
+        console.log(sum2(4));
+
+        //Example4
+
+        const sum3 = (a3, b3) => a3 + b3;
+
+        console.log(sum3(6, 4));
+
+    </script>
+</body>
+
+</html>
